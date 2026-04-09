@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="site.css">
+	</head>
+	<body>
+		<h1 id="titulo1">Titulo</h1>
+		<a class="enlace">Link1</a>
+		<a class="enlace" href="https://www.unsta.edu.ar">Link2</a>
+		<div>
+			<p>Parrafo 1</p>
+		</div>
+		<p>Parrafo 2</p>
+	</body>
+</html>

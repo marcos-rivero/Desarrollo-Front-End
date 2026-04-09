@@ -1,0 +1,42 @@
+/* Este es un comentario: el selector universal aplica el estilo a todos los elementos html de mi sitio web */
+
+*{
+	margin:0;
+	padding:0;
+}
+
+/* Este es un selector por etiqueta */
+h1{
+	font-size: 45px;
+}
+
+/* Este es un selector en cascada, en este caso el estilo se aplica a los elementos p que se encuentren dentro de un elemento div */
+
+div p{
+	color: red;
+}
+
+
+/* Si se separan por coma estaremos aplicando estilos a ambos elementos html */
+a, p{
+	height: 40px;
+	display: inline-block;
+}
+
+/* Este es un selector por clase */
+
+.enlace{
+	font-family: Verdana;
+}
+
+/* Este es un selector por id */
+
+#titulo1{
+	color: green;
+}
+
+/* Este es un selector por etiqueta y propiedad */
+
+a[href="https://www.unsta.edu.ar"]{
+	text-transform: uppercase;
+}
