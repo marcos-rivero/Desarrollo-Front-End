@@ -1,0 +1,73 @@
+.menu{
+    background: #000;
+}
+.menu li{
+    display: inline-block;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+    display: inline-block;
+}
+
+.menu li a:hover{
+    background-color: #ccc;
+}
+
+table{
+    border: 1px solid #000;
+    border-collapse: collapse;
+}
+
+table tr td{
+    border: 1px solid #000;    
+}
+
+footer{
+    margin-top: 1rem;
+}
+
+form{
+    width: 25%;
+    border: 1px solid #000;
+    margin: 1.5em;
+    padding: 1.5em;
+}
+
+label{
+    font-size: 0.9em;
+    display: block;
+    width: 100%;
+}
+
+input, textarea{
+    margin-bottom: 1.25em;
+    width: 100%;
+    padding: 0.5em;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+}
+
+input:focus, textarea:focus{
+    outline-color: #1668C4;
+}
+
+textarea{
+    resize: vertical;
+    max-height: 300px;
+    min-height: 100px;
+}
+
+input[type="button"]{
+    margin-bottom: 0;
+    background-color: #1668C4;
+    color: #fff;
+    border: none;
+}
+
+input[type="button"]:hover{
+    background-color: #4A88F4;
+}
+
